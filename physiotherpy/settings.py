@@ -12,6 +12,7 @@ SECRET_KEY = 'ynewfe51@!^zmn@$a_%ebpkmpg=cg_&ll0-xmud+p0k5fq_l%_'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1','apiphysioapp.herokuapp.com']
 
 
 # Application definition
