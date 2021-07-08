@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'physiotherpy.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -87,6 +87,18 @@ DATABASES = {
         'PORT': '5432'
     }
 }
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dahavm42psc4r7',
+        'USER': 'ujyjbzubajzdrz',
+        'PASSWORD': '47630a2c1747d67322abad5e5490ef8aca371cd373a49bfec0ab2b7081d1c7cd',
+        'HOST': 'ec2-52-4-111-46.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
+
 
 REST_FRAMEWORK = {
 
