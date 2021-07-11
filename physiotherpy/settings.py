@@ -12,7 +12,7 @@ SECRET_KEY = 'ynewfe51@!^zmn@$a_%ebpkmpg=cg_&ll0-xmud+p0k5fq_l%_'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1','apiphysioapp.herokuapp.com']
+#ALLOWED_HOSTS = ['127.0.0.1','apiphysioapp.herokuapp.com']
 
 
 # Application definition
@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'physiotherpy.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-"""
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'FinalDBPhysio9',
+        'NAME': 'TheFinalPhysioDB',
         'USER': 'postgres',
         'PASSWORD': '42105518',
         'HOST': 'localhost',
@@ -98,6 +98,8 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+"""
+
 
 
 REST_FRAMEWORK = {
