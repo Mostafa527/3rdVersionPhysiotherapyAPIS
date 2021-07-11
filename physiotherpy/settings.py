@@ -12,7 +12,7 @@ SECRET_KEY = 'ynewfe51@!^zmn@$a_%ebpkmpg=cg_&ll0-xmud+p0k5fq_l%_'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['127.0.0.1','apiphysioapp.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','physiotest.herokuapp.com']
 
 
 # Application definition
@@ -91,10 +91,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dahavm42psc4r7',
-        'USER': 'ujyjbzubajzdrz',
-        'PASSWORD': '47630a2c1747d67322abad5e5490ef8aca371cd373a49bfec0ab2b7081d1c7cd',
-        'HOST': 'ec2-52-4-111-46.compute-1.amazonaws.com',
+        'NAME': 'dfulsmojsp3cm',
+        'USER': 'auyauugerhdhre',
+        'PASSWORD': '8bf789a30af65ca8a95d656eea9336b06da7da785e1a5acc654d092cb2863208',
+        'HOST': 'ec2-34-206-8-52.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
