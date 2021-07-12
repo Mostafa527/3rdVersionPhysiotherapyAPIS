@@ -13,7 +13,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = ['127.0.0.1','physioapiproject.herokuapp.com']
-
+ALLOWED_HOSTS = ['192.168.1.106']
 
 # Application definition
 
